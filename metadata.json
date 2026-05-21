@@ -1,0 +1,6 @@
+{
+  "name": "WariTools",
+  "description": "精算・割り勘をスマートにサポート。レシート自動読み取り・端数自動均等割り対応の精算ツールアプリ。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

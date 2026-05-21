@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">WariTools</string>
+    
+    <!-- Tab Titles -->
+    <string name="tab_members">メンバー</string>
+    <string name="tab_items">品目</string>
+    <string name="tab_settlement">精算</string>
+    
+    <!-- Members Screen -->
+    <string name="member_title">メンバー管理</string>
+    <string name="member_hint">名前を入力（未入力で自動採番）</string>
+    <string name="member_add_btn">追加</string>
+    <string name="member_empty_state">メンバーが登録されていません。上の入力欄から追加してください。</string>
+    <string name="member_edit_title">メンバーの編集</string>
+    
+    <!-- Items Screen -->
+    <string name="item_title">注文品目の入力</string>
+    <string name="item_mode_manual">手入力</string>
+    <string name="item_mode_receipt">レシート読み取り</string>
+    <string name="item_add_btn">品目を追加</string>
+    <string name="item_edit_btn">品目を保存</string>
+    <string name="item_name_hint">品目名（例: カレー、ビール）</string>
+    <string name="item_amount_hint">金額（円）</string>
+    <string name="item_tax_label">税設定</string>
+    <string name="item_tax_included">税込</string>
+    <string name="item_tax_excluded">税抜</string>
+    <string name="item_tax_rate_label">税率</string>
+    <string name="item_tax_rate_8">8% (軽食等)</string>
+    <string name="item_tax_rate_10">10% (通常)</string>
+    
+    <string name="item_split_type_label">割り当て</string>
+    <string name="item_split_all_equal">全員均等</string>
+    <string name="item_split_individual">個人</string>
+    <string name="item_split_selected">複数でシェア</string>
+    
+    <string name="item_assigned_members_label">対象のメンバー</string>
+    <string name="item_assigned_num">%1$d人</string>
+    <string name="item_empty_state">品目が登録されていません。下の「＋」ボタンから追加、またはレシートをアップロードしてください。</string>
+    
+    <string name="receipt_instruction">レシートまたは伝票を読み取って、品目と金額を自動抽出します。</string>
+    <string name="gallery_pick">画像を選択</string>
+    <string name="camera_pick">カメラで撮影</string>
+    <string name="receipt_scanning">Geminiがレシートを解析しています...</string>
+    
+    <!-- Settlement Screen -->
+    <string name="settlement_title">精算結果</string>
+    <string name="settlement_grand_total">合計金額: %1$,d円</string>
+    <string name="settlement_grand_total_tax_suff">(内消費税: %1$,d円)</string>
+    <string name="settlement_option_header">精算オプション</string>
+    <string name="settlement_fraction_payer">端数（1円単位）の支払い方法</string>
+    <string name="settlement_fraction_organizer">幹事 (1番)が負担</string>
+    <string name="settlement_fraction_random">ランダムに割り振り</string>
+    <string name="settlement_fraction_manual">特定のメンバー</string>
+    <string name="settlement_fraction_manual_select">負担者を選択</string>
+    
+    <string name="settlement_tax_split">消費税の精算方法</string>
+    <string name="settlement_tax_prorated">注文額の比率で按分</string>
+    <string name="settlement_tax_equal">人数で均等割り</string>
+    
+    <string name="settlement_mode_equal_toggle">全員均等割りモードに切替</string>
+    <string name="settlement_mode_item_toggle">個別品目割りモードに切替</string>
+    
+    <string name="settlement_copy_btn">結果をコピー</string>
+    <string name="settlement_share_btn">結果を共有</string>
+    <string name="settlement_copied_toast">クリップボードにコピーしました</string>
+    <string name="settlement_empty">メンバーと品目を追加すると、自動で精算結果が表示されます。</string>
+    
+    <!-- Dialog / General -->
+    <string name="save">保存</string>
+    <string name="cancel">キャンセル</string>
+    <string name="delete">削除</string>
+    <string name="error_invalid_amount">正しい金額を数値で入力してください。</string>
+    <string name="ad_banner_placeholder">スポンサー / 広告表示エリア</string>
+</resources>
